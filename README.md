@@ -54,9 +54,11 @@ cv2.waitKey(0)
 
 # ii)Convert HSV to RGB and BGR
 
-HSV_RGB=cv2.cvtColor(image,cv2.COLOR_HSV2RGB)
+hsv=cv2.cvtColor(image,cv2.COLOR_BGR2HSV)
+cv2.imshow("HSV_IMAGE",hsv)
+HSV_RGB=cv2.cvtColor(hsv,cv2.COLOR_HSV2RGB)
 cv2.imshow("HSV_RGB_IMAGE",HSV_RGB)
-HSV_BGR=cv2.cvtColor(image,cv2.COLOR_HSV2BGR)
+HSV_BGR=cv2.cvtColor(hsv,cv2.COLOR_HSV2BGR)
 cv2.imshow("HSV_BGR_IMAGE",HSV_BGR)
 cv2.waitKey(0)
 
