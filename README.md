@@ -2,15 +2,18 @@
 ## AIM
 To perform the color conversion between RGB, BGR, HSV, and YCbCr color models.
 
+
 ## Software Required:
 Anaconda - Python 3.7
+
+
 ## Algorithm:
+
 ### STEP1:
 
 Read an image using imread() and
 Convert BGR and RGB to HSV and GRAY<br/>
 using:<br/>cv2.cvtColor(image,cv2.COLOR_RGB2HSV)<br/>cv2.cvtColor(image,cv2.COLOR_RGB2GRAY)<br/>cv2.cvtColor(image,cv2.COLOR_BGR2HSV)<br/>cv2.cvtColor(image,cv2.COLOR_BGR2GRAY)<br/>
-
 
 ### STEP2:
 
@@ -33,6 +36,7 @@ Split and merge HSV Image
 
 ## Program:
 ```python
+
 # Developed By: Vijayaragavan ARR
 # Register Number: 212220230059
 
@@ -99,7 +103,10 @@ cv2.waitKey(0)
 
 
 ```
+
+
 ## Output:
+
 ### i) BGR and RGB to HSV and GRAY
 <br/>
 
